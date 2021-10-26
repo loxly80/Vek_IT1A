@@ -15,6 +15,19 @@ namespace Vek_IT1A
             Console.ReadLine();
         }
 
+
+        static void FrameBorder(
+              int left
+            , int top
+            , int width
+            , int height
+            , ConsoleColor lineColor
+            , ConsoleColor backColor
+            , ConsoleColor innerColor)
+        {
+
+        }
+
         static void Frame(int left, int top,string text)
         {
             Console.SetCursorPosition(left, top);
